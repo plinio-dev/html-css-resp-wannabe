@@ -5,6 +5,29 @@
   margin-top: 100px;
 }
 
+/* Mediaquery 1024 */
+@media screen and (max-width:1024px) {
+  #lezioni.container .row .left, #lezioni.container .row .right, #steps.container.grey .row .left, #steps.container.grey .row .central, #steps.container.grey .row .right {
+    width: 70%;
+    padding-bottom: 100px;
+    margin: auto;
+    float: none;
+  }
+  * div {
+    font-size: 20px;
+    margin: auto;
+  }
+
+}
+
+
+
+/* /Mediaquery 1024 */
+
+
+
+
+
 /* Mediaquery 480 */
 @media screen and (max-width:480px) {
   #lezioni.container .row .left, #lezioni.container .row .right, #steps.container.grey .row .left, #steps.container.grey .row .central, #steps.container.grey .row .right {
@@ -94,11 +117,21 @@
   padding: 30px
 }
 
+/* Mediaquery 1024 */
+@media screen and (max-width:1024px) {
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    width: 90%;
+    margin:auto;
+  }
+}
+/* / Mediaquery 1024*/
 /* Mediaquery 480 */
+@media screen and (max-width:480px) {
   #why .row>.first, #why .row>.second, #why .row>.third {
     width: 80%;
-    /* margin-top: 40px; */
+    margin: auto;
   }
+}
 /* / Mediaquery 480 */
 
 /* COMMON */
@@ -111,6 +144,17 @@
 .container.grey {
   background-color: #f9f9f9;
 }
+
+
+/* Mediaquery 1024 */
+@media screen and (max-width:1024px) {
+  .container.grey {
+    background-color: white
+    ;
+  }
+}
+/* /Mediaquery 1024 */
+
 /* Mediaquery 480 */
 @media screen and (max-width:480px) {
   .container.grey {
