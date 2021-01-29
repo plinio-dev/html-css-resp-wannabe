@@ -18,7 +18,14 @@
   #steps.container.grey .row .central {
     width: 100%;
   }
+  h1 {
+    font-size: 60px;
+  }
+  * h3 {
+    font-size:50px;
+  }
 }
+/* /Mediaquery 480 */
 
 
 
@@ -81,7 +88,16 @@
 .container.grey {
   background-color: #f9f9f9;
 }
+/* Mediaquery 480 */
+@media screen and (max-width:480px) {
+  .container.grey {
+    background-color: white;
+  }
 
+
+
+}
+/* /Mediaquery 480 */
 img {
   height: 200px;
 }
