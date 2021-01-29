@@ -5,6 +5,24 @@
   margin-top: 100px;
 }
 
+/* Mediaquery 480 */
+@media screen and (max-width:480px) {
+  #lezioni.container .row .left, #lezioni.container .row .right, #steps.container.grey .row .left, #steps.container.grey .row .central, #steps.container.grey .row .right {
+    width: 70%;
+    margin: auto;
+    float: none;
+  }
+  #lezioni.container .row .left {
+    padding-bottom: 50px;
+  }
+  #steps.container.grey .row .central {
+    width: 100%;
+  }
+}
+
+
+
+
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
